@@ -8,7 +8,7 @@ from prediction import prediction
 def run_pipeline(spark):
     try:
         print("run_pipeline method started. Running Pipeline....")
-        df = ingest_data(spark)
+        df = ingest_data(spark,"resources/fraudTest.csv")
         transformed_df = transform_data(spark,df)
         prediction(transformed_df)
         print("run_pipeline method ended.")
