@@ -1,5 +1,3 @@
 # spark-201-project
 
-To run the application:
-use build_utility.sh to build all the utilities present under /modules/pipeline/ path required by main file.
-then submit run_app.sh script (environment specific changes can be made)
+To run the Spark_model.ipynb notebook, please have the fraudTrain.csv and fraudTest.csv inside data/ folder in this location. Otherwise, change the filepath in the notebook.
